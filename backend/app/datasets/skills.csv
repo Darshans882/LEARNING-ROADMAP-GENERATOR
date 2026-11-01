@@ -1,0 +1,174 @@
+skill_id,skill_name,category,level,description,aliases
+python,Python,Programming,foundational,Write readable Python programs and scripts.,"py,python3"
+sql,SQL,Data,foundational,Query and model relational data.,structured query language
+javascript,JavaScript,Programming,foundational,Modern JavaScript for the browser and Node.,"js,es6"
+typescript,TypeScript,Programming,intermediate,Typed JavaScript for large applications.,ts
+java,Java,Programming,foundational,Object-oriented programming on the JVM.,
+csharp,C#,Programming,foundational,C# programming for apps and games.,"c sharp,dotnet"
+cpp,C++,Programming,intermediate,Systems programming with modern C++.,c++
+r-lang,R,Data,foundational,Statistical computing and visualization in R.,r programming
+go,Go,Programming,intermediate,Backend services and tooling in Go.,golang
+bash,Bash / Shell,Programming,foundational,Command-line automation on Linux and macOS.,"shell,terminal,command line"
+data-structures,Data Structures,Programming,foundational,"Arrays, maps, trees, graphs and their trade-offs.",dsa
+algorithms,Algorithms,Programming,intermediate,"Algorithm design, complexity and correctness.",algorithm analysis
+oop,Object-Oriented Programming,Programming,foundational,"Classes, interfaces, composition and design.",oops
+git,Git & GitHub,Programming,foundational,"Version control, branching and collaboration.","github,version control"
+linux,Linux,Cloud & Systems,foundational,Navigate and administer Linux systems.,"ubuntu,unix"
+testing,Software Testing,Programming,intermediate,"Unit, integration and end-to-end testing.","unit testing,pytest,jest"
+system-design,System Design,Programming,advanced,"Design scalable, reliable distributed systems.",architecture
+rest-apis,REST APIs,Programming,intermediate,Design and consume HTTP JSON APIs.,"api,apis,rest"
+graphql,GraphQL,Programming,intermediate,Schema-first API design and queries.,
+websockets,WebSockets,Programming,intermediate,Real-time bidirectional communication.,socket.io
+message-queues,Message Queues,Cloud & Systems,advanced,Asynchronous messaging with queues and streams.,"kafka,rabbitmq"
+html-css,HTML & CSS,Web Development,foundational,Semantic markup and responsive styling.,"html,css,html5,css3"
+responsive-design,Responsive Design,Web Development,foundational,Mobile-first layouts and fluid interfaces.,mobile first
+react,React,Web Development,intermediate,Component-driven user interfaces with React.,"reactjs,react.js"
+nextjs,Next.js,Web Development,advanced,Full-stack React with routing and server rendering.,next
+tailwind,Tailwind CSS,Web Development,intermediate,Utility-first CSS for design systems.,tailwindcss
+nodejs,Node.js,Web Development,intermediate,JavaScript runtime for backend services.,node
+express,Express.js,Web Development,intermediate,Minimal Node.js web framework.,expressjs
+django,Django,Web Development,intermediate,Batteries-included Python web framework.,
+fastapi,FastAPI,Web Development,intermediate,"Typed, async Python APIs with automatic docs.",fast api
+flask,Flask,Web Development,intermediate,Lightweight Python web framework.,
+postgresql,PostgreSQL,Data,intermediate,Relational database design and administration.,"postgres,psql"
+mongodb,MongoDB,Data,intermediate,Document databases and aggregation.,"mongo,nosql"
+redis,Redis,Data,intermediate,In-memory caching and data structures.,cache
+firebase,Firebase,Web Development,intermediate,"Managed auth, database and hosting.",firestore
+web-security,Web Security,Security,advanced,Secure web apps against common attacks.,"owasp,appsec"
+accessibility,Accessibility (a11y),Web Development,intermediate,Inclusive interfaces following WCAG.,"a11y,wcag"
+state-management,State Management,Web Development,intermediate,Predictable client state with stores and reducers.,"redux,zustand"
+frontend-performance,Frontend Performance,Web Development,advanced,Measure and optimize web performance.,"web performance,core web vitals"
+design-systems,Design Systems,Design,advanced,"Reusable components, tokens and guidelines.",design system
+statistics,Statistics,Data,foundational,Descriptive and inferential statistics.,statistical analysis
+probability,Probability,Data,foundational,Probability models and distributions.,
+linear-algebra,Linear Algebra,Data,foundational,"Vectors, matrices and transformations for ML.",matrices
+pandas,Pandas,Data,intermediate,Tabular data manipulation in Python.,dataframes
+numpy,NumPy,Data,intermediate,Numerical computing with arrays.,
+data-visualization,Data Visualization,Data,intermediate,Communicate insight with charts.,"dataviz,visualisation"
+machine-learning,Machine Learning,AI,intermediate,Supervised and unsupervised learning.,"ml,machine learning"
+scikit-learn,Scikit-learn,AI,intermediate,Train and evaluate ML models in Python.,sklearn
+model-evaluation,Model Evaluation,AI,intermediate,"Cross-validation, metrics and error analysis.",metrics
+feature-engineering,Feature Engineering,AI,intermediate,Create informative features from raw data.,feature selection
+deep-learning,Deep Learning,AI,advanced,Neural networks for perception and language.,neural networks
+pytorch,PyTorch,AI,advanced,Deep learning research and production with PyTorch.,torch
+tensorflow,TensorFlow,AI,advanced,Deep learning with the TensorFlow ecosystem.,keras
+nlp,Natural Language Processing,AI,advanced,Process and model human language.,natural language processing
+computer-vision,Computer Vision,AI,advanced,"Image classification, detection and segmentation.","cv,opencv"
+transformers,Transformers,AI,advanced,Attention-based models and LLM fine-tuning.,"llm,large language models,hugging face"
+mlops,MLOps,AI,advanced,"Deploy, monitor and maintain ML systems.","ml ops,model deployment"
+data-ethics,Data & AI Ethics,AI,intermediate,"Fairness, privacy and responsible AI.",responsible ai
+data-storytelling,Data Storytelling,Data,intermediate,Turn analysis into decisions and narratives.,storytelling
+ab-testing,A/B Testing,Data,intermediate,Design and analyze controlled experiments.,experimentation
+analytics,Product Analytics,Data,intermediate,Measure product behaviour and funnels.,product analytics
+power-bi,Power BI,Data,intermediate,Build business intelligence dashboards.,powerbi
+tableau,Tableau,Data,intermediate,Visual analytics and dashboards in Tableau.,
+dashboarding,Dashboarding,Data,intermediate,Design effective operational dashboards.,dashboards
+big-data,Big Data,Data,advanced,Distributed processing for large datasets.,hadoop
+spark,Apache Spark,Data,advanced,Large-scale data processing with Spark.,pyspark
+time-series,Time Series,Data,advanced,Forecasting and temporal modeling.,forecasting
+cloud-aws,AWS Cloud,Cloud & Systems,intermediate,"Core AWS compute, storage and networking.","amazon web services,aws"
+azure,Microsoft Azure,Cloud & Systems,intermediate,Azure cloud services and administration.,
+gcp,Google Cloud,Cloud & Systems,intermediate,Google Cloud Platform fundamentals.,google cloud
+docker,Docker,Cloud & Systems,intermediate,Containerize and run applications.,containers
+kubernetes,Kubernetes,Cloud & Systems,advanced,Orchestrate containers at scale.,k8s
+cicd,CI/CD,Cloud & Systems,intermediate,"Automated build, test and deployment pipelines.","continuous integration,github actions"
+terraform,Terraform,Cloud & Systems,advanced,Infrastructure as code with Terraform.,iac
+ansible,Ansible,Cloud & Systems,advanced,Configuration management and automation.,
+monitoring,Monitoring & Observability,Cloud & Systems,advanced,"Metrics, logs, traces and alerting.","observability,prometheus"
+networking,Computer Networking,Cloud & Systems,foundational,"TCP/IP, DNS, routing and network security.","tcp/ip,ccna"
+security-fundamentals,Security Fundamentals,Security,foundational,"Confidentiality, integrity, availability and risk.","cybersecurity,infosec"
+ethical-hacking,Ethical Hacking,Security,advanced,Authorized penetration testing and exploitation.,"penetration testing,pentest"
+cryptography,Cryptography,Security,advanced,"Encryption, hashing and secure protocols.",encryption
+siem,SIEM,Security,advanced,Security information and event management.,"splunk,sentinel"
+incident-response,Incident Response,Security,advanced,"Detect, contain and recover from incidents.",dfir
+digital-forensics,Digital Forensics,Security,advanced,Evidence collection and forensic analysis.,forensics
+cloud-security,Cloud Security,Security,advanced,"Secure cloud identities, networks and data.",
+threat-modeling,Threat Modeling,Security,advanced,Systematically identify design threats.,stride
+grc,"Governance, Risk & Compliance",Security,advanced,"Security policy, audit and compliance.","compliance,risk"
+security-architecture,Security Architecture,Security,advanced,Design defense-in-depth systems.,zero trust
+threat-intelligence,Threat Intelligence,Security,advanced,Collect and operationalize threat data.,cti
+cost-optimization,Cloud Cost Optimization,Cloud & Systems,advanced,Control and optimize cloud spend.,finops
+ux-research,UX Research,Design,intermediate,Understand users through interviews and studies.,user research
+ui-design,UI Design,Design,intermediate,"Visual hierarchy, layout and interface craft.",user interface design
+figma,Figma,Design,intermediate,Design and prototype interfaces in Figma.,
+wireframing,Wireframing,Design,foundational,Sketch structural layouts before visual design.,wireframes
+prototyping,Prototyping,Design,intermediate,Create testable interactive prototypes.,prototype
+interaction-design,Interaction Design,Design,advanced,"Design flows, feedback and micro-interactions.",ixd
+usability-testing,Usability Testing,Design,advanced,Plan and run usability sessions.,user testing
+information-architecture,Information Architecture,Design,advanced,Organize content and navigation.,ia
+branding,Branding,Design,intermediate,Build coherent brand identities.,brand identity
+motion-design,Motion Design,Design,advanced,Animate interfaces with purpose.,animation
+design-portfolio,Design Portfolio,Design,intermediate,Present design work with clear case studies.,portfolio
+canva,Canva,Design,foundational,Fast visual content creation in Canva.,
+digital-marketing,Digital Marketing,Business,foundational,Plan and execute digital acquisition strategy.,online marketing
+seo,SEO,Business,intermediate,Improve organic search visibility.,search engine optimization
+content-marketing,Content Marketing,Business,intermediate,Create content that attracts and retains users.,content strategy
+google-analytics,Google Analytics,Business,intermediate,Measure website and campaign performance.,"ga4,web analytics"
+social-media-marketing,Social Media Marketing,Business,intermediate,Build and measure social channels.,smm
+email-marketing,Email Marketing,Business,intermediate,Lifecycle campaigns and list health.,newsletters
+paid-advertising,Paid Advertising,Business,intermediate,Run search and social ad campaigns.,"ppc,google ads,meta ads"
+conversion-optimization,Conversion Optimization,Business,advanced,Improve funnel conversion with evidence.,cro
+marketing-automation,Marketing Automation,Business,advanced,Automate lifecycle messaging and scoring.,hubspot automation
+copywriting,Copywriting,Business,intermediate,"Persuasive, clear marketing copy.",ad copy
+customer-segmentation,Customer Segmentation,Business,intermediate,Group customers for targeted strategy.,segmentation
+business-analysis,Business Analysis,Business,foundational,Turn business needs into requirements.,ba
+requirements-gathering,Requirements Gathering,Business,intermediate,Elicit and document stakeholder needs.,elicitation
+process-modeling,Process Modeling,Business,intermediate,Map and improve business processes.,bpmn
+agile-scrum,Agile & Scrum,Business,foundational,Iterative delivery with Scrum ceremonies.,"agile,scrum"
+jira,Jira,Business,intermediate,"Track work with boards, backlogs and sprints.",atlassian
+stakeholder-management,Stakeholder Management,Business,intermediate,Align and communicate with stakeholders.,stakeholders
+product-strategy,Product Strategy,Business,advanced,"Choose markets, problems and product bets.",product management
+roadmapping,Product Roadmapping,Business,intermediate,Sequence outcomes and communicate plans.,roadmap
+user-stories,User Stories,Business,intermediate,"Write clear, testable product requirements.",backlog
+leadership,Leadership,Soft Skills,advanced,Lead teams and develop people.,team lead
+go-to-market,Go-to-Market,Business,advanced,Launch products with positioning and channels.,gtm
+pricing-strategy,Pricing Strategy,Business,advanced,Design pricing and packaging.,pricing
+project-management,Project Management,Business,intermediate,"Plan scope, schedule, risk and delivery.",pmp
+excel,Excel,Data,foundational,"Spreadsheet analysis, formulas and pivots.",spreadsheets
+finance-fundamentals,Finance Fundamentals,Business,foundational,"Financial statements, budgeting and ROI.",finance
+engineering-mechanics,Engineering Mechanics,Engineering,foundational,Statics and dynamics of structures and machines.,"statics,dynamics"
+autocad,AutoCAD,Engineering,foundational,2D drafting and technical drawings.,cad
+materials-science,Materials Science,Engineering,intermediate,Material properties and selection.,material science
+thermodynamics,Thermodynamics,Engineering,intermediate,"Energy, heat and thermodynamic cycles.",thermo
+solidworks,SolidWorks,Engineering,intermediate,3D parametric CAD modeling.,3d cad
+manufacturing-processes,Manufacturing Processes,Engineering,intermediate,"Casting, machining and additive manufacturing.",manufacturing
+matlab,MATLAB,Engineering,intermediate,Numerical computing and simulation.,simulink
+fea,Finite Element Analysis,Engineering,advanced,Simulate stress and deformation with FEA.,finite element
+machine-design,Machine Design,Engineering,advanced,Design mechanical components and assemblies.,mechanical design
+fluid-mechanics,Fluid Mechanics,Engineering,intermediate,"Fluid statics, dynamics and flow analysis.",fluids
+gdt,GD&T,Engineering,advanced,Geometric dimensioning and tolerancing.,geometric tolerancing
+product-design,Product Design Engineering,Engineering,advanced,Design manufacturable products.,dfm
+cad-simulation,CAD Simulation,Engineering,advanced,Validate designs with CAD simulation tools.,simulation
+surveying,Surveying,Engineering,foundational,Measure land and prepare site data.,land survey
+structural-analysis,Structural Analysis,Engineering,intermediate,"Analyze beams, frames and trusses.",structures
+concrete-design,Concrete Design,Engineering,advanced,Reinforced concrete member design.,rcc
+soil-mechanics,Soil Mechanics,Engineering,intermediate,Geotechnical properties and foundations.,geotech
+steel-design,Steel Design,Engineering,advanced,Design steel structural members.,steel structures
+transportation-engineering,Transportation Engineering,Engineering,advanced,Highway and traffic system design.,highways
+construction-management,Construction Management,Engineering,advanced,Plan and control construction projects.,construction
+earthquake-engineering,Earthquake Engineering,Engineering,advanced,Seismic design and resilience.,seismic
+sustainable-design,Sustainable Design,Engineering,advanced,Low-impact engineering decisions.,green building
+circuit-analysis,Circuit Analysis,Engineering,foundational,Analyze electrical circuits and networks.,circuits
+electronics,Electronics,Engineering,intermediate,Analog and digital electronic systems.,electronic devices
+power-systems,Power Systems,Engineering,intermediate,"Generation, transmission and distribution.",power engineering
+control-systems,Control Systems,Engineering,intermediate,"Feedback, stability and controllers.",control theory
+embedded-systems,Embedded Systems,Engineering,advanced,Microcontroller-based system design.,microcontrollers
+plc,PLC & Automation,Engineering,advanced,Industrial automation and PLC programming.,scada
+signal-processing,Signal Processing,Engineering,advanced,Analyze and filter signals.,dsp
+renewable-energy,Renewable Energy,Engineering,intermediate,"Solar, wind and storage systems.","solar,wind"
+electric-machines,Electric Machines,Engineering,advanced,"Motors, generators and drives.",machines
+smart-grids,Smart Grids,Engineering,advanced,Modern grid automation and integration.,grid
+iot,Internet of Things,Engineering,advanced,Connected devices and telemetry.,iot
+safety-standards,Engineering Safety Standards,Engineering,advanced,"Codes, standards and safe design practice.",codes
+problem-solving,Problem Solving,Soft Skills,foundational,Structured diagnosis and solution design.,analytical thinking
+communication,Communication,Soft Skills,foundational,Clear written and verbal communication.,english communication
+presentation,Presentation Skills,Soft Skills,intermediate,Present ideas with confidence and clarity.,public speaking
+teamwork,Teamwork,Soft Skills,foundational,Collaborate effectively in teams.,collaboration
+time-management,Time Management,Soft Skills,foundational,Plan and protect focused study time.,productivity
+critical-thinking,Critical Thinking,Soft Skills,intermediate,Evaluate evidence and assumptions.,reasoning
+research-methods,Research Methods,Soft Skills,intermediate,Design studies and evaluate sources.,research
+academic-writing,Academic Writing,Soft Skills,intermediate,Write structured academic work.,technical writing
+interview-preparation,Interview Preparation,Soft Skills,intermediate,Prepare for technical and behavioural interviews.,interview
+professional-ethics,Professional Ethics,Soft Skills,intermediate,Ethical decision making at work.,workplace ethics
+management,Management Fundamentals,Business,foundational,"Plan, organize and lead organizational work.",management basics
+image-processing,Image Processing,Engineering,advanced,Process and analyze digital images.,digital image processing

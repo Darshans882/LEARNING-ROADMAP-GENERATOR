@@ -1,0 +1,21 @@
+resource_id,title,resource_type,url,skills,platform,price_type,description
+res-python-docs,Python Official Tutorial,Documentation,https://docs.python.org/3/tutorial/,python,Python Software Foundation,Free,The authoritative starting point for Python.
+res-mdn-js,MDN JavaScript Guide,Documentation,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide,javascript|typescript,Mozilla,Free,Comprehensive JavaScript language guide.
+res-fastapi,FastAPI Documentation,Documentation,https://fastapi.tiangolo.com/,fastapi|rest-apis|python,FastAPI,Free,Tutorial and reference for the backend framework used here.
+res-react,React Documentation,Documentation,https://react.dev/learn,react|state-management,React Team,Free,Official modern React learning path.
+res-postgres,PostgreSQL Tutorial,Tutorial,https://www.postgresql.org/docs/current/tutorial.html,postgresql|sql,PostgreSQL,Free,Official relational database tutorial.
+res-sklearn,scikit-learn User Guide,Documentation,https://scikit-learn.org/stable/user_guide.html,scikit-learn|machine-learning,scikit-learn,Free,"Algorithms, preprocessing and model evaluation."
+res-pandas,Pandas 10 Minutes to Pandas,Tutorial,https://pandas.pydata.org/docs/user_guide/10min.html,pandas|numpy,Pandas,Free,Fast introduction to DataFrames.
+res-owasp,OWASP Top 10,Reference,https://owasp.org/www-project-top-ten/,web-security|security-fundamentals,OWASP,Free,The most critical web application security risks.
+res-kubernetes,Kubernetes Basics,Tutorial,https://kubernetes.io/docs/tutorials/kubernetes-basics/,kubernetes|docker,Kubernetes,Free,Interactive introduction to Kubernetes.
+res-docker,Docker Get Started,Tutorial,https://docs.docker.com/get-started/,docker,Docker,Free,Official container getting-started guide.
+res-figma,Figma Learn Help Center,Documentation,https://help.figma.com/hc/en-us,figma|ui-design|prototyping,Figma,Free,Official Figma help and tutorials.
+res-ga4,Google Analytics Academy,Course,https://analytics.google.com/analytics/academy/,google-analytics|analytics|digital-marketing,Google,Free,Free GA4 training and certifications.
+res-onet,O*NET OnLine,Career Data,https://www.onetonline.org/,career|research,U.S. Department of Labor,Free,Occupational information used to model career requirements.
+res-esco,ESCO Occupations,Career Data,https://esco.ec.europa.eu/en/classification/occupation_main,career|research,European Commission,Free,"European skills, competences and occupations taxonomy."
+res-mit-ocw,MIT OpenCourseWare,Open Courseware,https://ocw.mit.edu/,engineering|computer-science,MIT,Free,University-level course materials across engineering and science.
+res-nptel,NPTEL,Open Courseware,https://nptel.ac.in/,engineering|python|machine-learning,IITs / IISc,Free,Indian national programme of online engineering courses.
+res-swayam,SWAYAM,Open Courseware,https://swayam.gov.in/,engineering|management|communication,Government of India,Free,National online education platform.
+res-interview,Tech Interview Handbook,Guide,https://www.techinterviewhandbook.org/,interview-preparation|algorithms|data-structures,Yangshun Tay,Free,Structured interview preparation guide.
+res-roadmap,roadmap.sh,Guide,https://roadmap.sh/,career|system-design|frontend|backend,roadmap.sh,Free,Community roadmaps for developer careers.
+res-khan,Khan Academy,Course,https://www.khanacademy.org/,statistics|probability|linear-algebra|finance-fundamentals,Khan Academy,Free,Free foundational math and finance lessons.

@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: learning-roadmap-generator-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGINS
+        sync: false
+      - key: DATABASE_URL
+        value: sqlite:///./smartlearn.db
+      - key: SEED_DEMO_DATA
+        value: "true"
+      - key: LLM_PROVIDER
+        value: none

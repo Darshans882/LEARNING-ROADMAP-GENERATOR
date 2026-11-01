@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-800;
+  }
+
+  ::selection {
+    @apply bg-brand-200 text-brand-900;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 transparent;
+  }
+
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-slate-300;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-slate-200 bg-white shadow-sm;
+  }
+
+  .card-hover {
+    @apply transition duration-200 hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-soft;
+  }
+
+  .label {
+    @apply mb-1.5 block text-sm font-medium text-slate-700;
+  }
+
+  .input {
+    @apply w-full rounded-xl border border-slate-300 bg-white px-3.5 py-2.5 text-sm text-slate-800 placeholder:text-slate-400 focus:border-brand-500 focus:outline-none focus:ring-4 focus:ring-brand-500/10 disabled:cursor-not-allowed disabled:bg-slate-100;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition focus:outline-none focus:ring-4 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-primary {
+    @apply btn bg-brand-600 text-white shadow-sm hover:bg-brand-700 focus:ring-brand-500/20;
+  }
+
+  .btn-secondary {
+    @apply btn border border-slate-300 bg-white text-slate-700 hover:bg-slate-50 focus:ring-slate-300/40;
+  }
+
+  .btn-ghost {
+    @apply btn text-slate-600 hover:bg-slate-100 focus:ring-slate-200;
+  }
+
+  .btn-danger {
+    @apply btn bg-rose-600 text-white hover:bg-rose-700 focus:ring-rose-500/20;
+  }
+
+  .btn-success {
+    @apply btn bg-emerald-600 text-white hover:bg-emerald-700 focus:ring-emerald-500/20;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-medium;
+  }
+
+  .section-title {
+    @apply text-lg font-bold tracking-tight text-slate-900;
+  }
+
+  .muted {
+    @apply text-sm text-slate-500;
+  }
+
+  .table-wrap {
+    @apply overflow-x-auto rounded-2xl border border-slate-200 bg-white;
+  }
+
+  .data-table {
+    @apply w-full min-w-[640px] text-left text-sm;
+  }
+
+  .data-table th {
+    @apply border-b border-slate-200 bg-slate-50 px-4 py-3 text-xs font-semibold uppercase tracking-wide text-slate-500;
+  }
+
+  .data-table td {
+    @apply border-b border-slate-100 px-4 py-3 align-middle text-slate-700;
+  }
+
+  .data-table tr:last-child td {
+    @apply border-b-0;
+  }
+}
+
+/* Markdown rendering for assistant answers */
+.markdown {
+  @apply text-sm leading-relaxed text-slate-700;
+}
+.markdown p {
+  @apply mb-2;
+}
+.markdown ul {
+  @apply mb-2 list-disc space-y-1 pl-5;
+}
+.markdown ol {
+  @apply mb-2 list-decimal space-y-1 pl-5;
+}
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4 {
+  @apply mb-1.5 mt-3 font-bold text-slate-900;
+}
+.markdown h1 {
+  @apply text-lg;
+}
+.markdown h2 {
+  @apply text-base;
+}
+.markdown h3 {
+  @apply text-sm;
+}
+.markdown a {
+  @apply font-medium text-brand-600 underline decoration-brand-300 underline-offset-2 hover:text-brand-700;
+}
+.markdown strong {
+  @apply font-semibold text-slate-900;
+}
+.markdown code {
+  @apply rounded bg-slate-100 px-1 py-0.5 text-xs text-slate-800;
+}
+.markdown blockquote {
+  @apply my-2 border-l-4 border-brand-200 pl-3 text-slate-600;
+}
+.markdown table {
+  @apply my-2 w-full border-collapse text-xs;
+}
+.markdown th,
+.markdown td {
+  @apply border border-slate-200 px-2 py-1;
+}
+
+/* React Flow tweaks */
+.react-flow__attribution {
+  display: none;
+}
+.react-flow__node {
+  font-family: inherit;
+}
+.react-flow__handle {
+  width: 7px;
+  height: 7px;
+  border: 2px solid #fff;
+  background: #94a3b8;
+}
+.react-flow__edge-path {
+  stroke-width: 1.8;
+}
+.react-flow__minimap {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
