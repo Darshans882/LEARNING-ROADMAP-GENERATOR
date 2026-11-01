@@ -341,9 +341,9 @@ npm run build
 
 ### Vercel + Render
 
-This repository includes `vercel.json` and `render.yaml` for the split deployment:
+This repository includes `frontend/vercel.json` and `render.yaml` for the split deployment:
 
-- Import the repository into Vercel from the repository root. Vercel builds `frontend/` and serves its SPA routes.
+- Import the repository into Vercel with the project root set to `frontend/`. Vercel builds and serves the SPA routes.
 - Create the Render web service from `render.yaml`. Set `CORS_ORIGINS` to the deployed Vercel URL.
 - After Render is live, set Vercel's `VITE_API_URL` to the Render URL plus `/api`, then redeploy the frontend.
 
