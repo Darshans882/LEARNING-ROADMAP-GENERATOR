@@ -61,7 +61,7 @@ class Settings:
 
     @property
     def is_postgres(self) -> bool:
-        return self.DATABASE_URL.startswith("postgresql")
+        return self.DATABASE_URL.startswith(("postgres://", "postgresql://", "postgresql+"))
 
 
 settings = Settings()
